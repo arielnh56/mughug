@@ -320,10 +320,10 @@
 <wire x1="0" y1="0" x2="1.27" y2="-1.27" width="0.254" layer="94"/>
 </symbol>
 <symbol name="VBUS">
-<text x="-1.524" y="3.556" size="1.27" layer="96">&gt;VALUE</text>
-<pin name="VBUS" x="0" y="0" visible="off" length="short" direction="sup" rot="R90"/>
-<wire x1="-1.27" y1="1.27" x2="0" y2="2.54" width="0.254" layer="94"/>
-<wire x1="0" y1="2.54" x2="1.27" y2="1.27" width="0.254" layer="94"/>
+<text x="-1.524" y="1.016" size="1.27" layer="96">&gt;VALUE</text>
+<pin name="VBUS" x="0" y="-2.54" visible="off" length="short" direction="sup" rot="R90"/>
+<wire x1="-1.27" y1="-1.27" x2="0" y2="0" width="0.254" layer="94"/>
+<wire x1="0" y1="0" x2="1.27" y2="-1.27" width="0.254" layer="94"/>
 </symbol>
 <symbol name="GND">
 <wire x1="-1.27" y1="0" x2="1.27" y2="0" width="0.254" layer="94"/>
@@ -352,6 +352,7 @@
 </devices>
 </deviceset>
 <deviceset name="VBUS">
+<description>&lt;p&gt;VBUS Supply Symbole&lt;/p&gt;</description>
 <gates>
 <gate name="G$1" symbol="VBUS" x="0" y="0"/>
 </gates>
@@ -9407,12 +9408,12 @@ backpack</text>
 <pinref part="U$1" gate="G$1" pin="VBUS"/>
 <pinref part="U$3" gate="G$1" pin="VBUS"/>
 <wire x1="55.88" y1="88.9" x2="63.5" y2="88.9" width="0.1524" layer="91"/>
-<wire x1="63.5" y1="88.9" x2="63.5" y2="99.06" width="0.1524" layer="91"/>
+<wire x1="63.5" y1="88.9" x2="63.5" y2="96.52" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="U$2" gate="G$1" pin="VBUS"/>
 <pinref part="U$4" gate="G$1" pin="VBUS"/>
-<wire x1="119.38" y1="78.74" x2="119.38" y2="73.66" width="0.1524" layer="91"/>
+<wire x1="119.38" y1="78.74" x2="119.38" y2="76.2" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="GND" class="0">

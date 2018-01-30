@@ -350,7 +350,6 @@ UsedLibraryUrn="urn:adsk.eagle:library:176"
 UsedLibraryUrn="urn:adsk.eagle:library:177"
 UsedLibrary="C:/eagle_libs/SparkFun-Sensors.lbr"
 UsedLibrary="C:/eagle_libs/adafruit.lbr"
-UsedLibrary="C:/eagle_libs/redhunter.lbr"
 
 [Win_1]
 Type="Board Editor"
@@ -401,6 +400,6 @@ Type="Control Panel"
 Number=0
 
 [Desktop]
-Screen="5440 1210"
+Screen="1600 900"
 Window="Win_1"
 Window="Win_2"
