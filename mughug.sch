@@ -9129,37 +9129,17 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <circle x="6.35" y="5.08" radius="1.75" width="0.2032" layer="21"/>
 <pad name="BAT" x="-5.08" y="6.35" drill="1" diameter="1.9304" rot="R90"/>
 <pad name="GND" x="-2.54" y="6.35" drill="1" diameter="1.9304" rot="R90"/>
-<pad name="VBUS" x="0" y="6.35" drill="1" diameter="1.9304" rot="R90"/>
-<wire x1="6.35" y1="-7.62" x2="-5.08" y2="-7.62" width="0.127" layer="21"/>
-<wire x1="-5.08" y1="-7.62" x2="-7.62" y2="-5.08" width="0.127" layer="21" curve="-90"/>
-<wire x1="-7.62" y1="5.08" x2="-5.08" y2="7.62" width="0.127" layer="21" curve="-90"/>
-<wire x1="6.35" y1="7.62" x2="8.89" y2="5.08" width="0.127" layer="21" curve="-90"/>
-<wire x1="8.89" y1="-5.08" x2="6.35" y2="-7.62" width="0.127" layer="21" curve="-90"/>
-<text x="-4.318" y="2.032" size="1.27" layer="21" rot="R90">BAT</text>
-<text x="-1.905" y="1.524" size="1.27" layer="21" rot="R90">GND</text>
-<text x="0.635" y="0.508" size="1.27" layer="21" rot="R90">VBUS</text>
-</package>
-<package name="PROTRINKETLIPO">
-<wire x1="-7.62" y1="-5.08" x2="-7.62" y2="5.08" width="0.127" layer="21"/>
-<wire x1="-5.08" y1="7.62" x2="6.35" y2="7.62" width="0.127" layer="21"/>
-<wire x1="8.89" y1="5.08" x2="8.89" y2="-5.08" width="0.127" layer="21"/>
-<circle x="6.35" y="5.08" radius="1.75" width="0.2032" layer="21"/>
-<circle x="6.35" y="5.08" radius="1" width="2.032" layer="39"/>
-<circle x="6.35" y="5.08" radius="1" width="2.032" layer="40"/>
-<circle x="6.35" y="5.08" radius="1" width="2.032" layer="41"/>
-<circle x="6.35" y="5.08" radius="1" width="2.032" layer="42"/>
-<pad name="P$1" x="6.35" y="5.08" drill="2.5" diameter="3.2"/>
-<pad name="BAT" x="-5.08" y="6.35" drill="1" diameter="1.9304" rot="R90"/>
-<pad name="GND" x="-2.54" y="6.35" drill="1" diameter="1.9304" rot="R90"/>
 <pad name="5V" x="0" y="6.35" drill="1" diameter="1.9304" rot="R90"/>
 <wire x1="6.35" y1="-7.62" x2="-5.08" y2="-7.62" width="0.127" layer="21"/>
 <wire x1="-5.08" y1="-7.62" x2="-7.62" y2="-5.08" width="0.127" layer="21" curve="-90"/>
 <wire x1="-7.62" y1="5.08" x2="-5.08" y2="7.62" width="0.127" layer="21" curve="-90"/>
 <wire x1="6.35" y1="7.62" x2="8.89" y2="5.08" width="0.127" layer="21" curve="-90"/>
 <wire x1="8.89" y1="-5.08" x2="6.35" y2="-7.62" width="0.127" layer="21" curve="-90"/>
-<text x="-4.318" y="2.032" size="1.27" layer="21" rot="R90">BAT</text>
-<text x="-1.905" y="1.524" size="1.27" layer="21" rot="R90">GND</text>
-<text x="0.635" y="0.508" size="1.27" layer="21" rot="R90">VBUS</text>
+<text x="-4.826" y="3.175" size="0.8128" layer="21" font="vector" ratio="16" rot="R90">BAT</text>
+<text x="-2.159" y="3.048" size="0.8128" layer="21" font="vector" ratio="16" rot="R90">GND</text>
+<text x="0.381" y="2.159" size="0.8128" layer="21" font="vector" ratio="16" rot="R90">VBUS</text>
+<text x="3.81" y="1.27" size="0.8128" layer="21" font="vector" ratio="16" rot="R90">PT LIPO
+BACKPACK</text>
 </package>
 <package name="TRINKET">
 <hole x="-6.096" y="6.223" drill="2.2"/>
@@ -9200,6 +9180,30 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <circle x="-5.715" y="-10.16" radius="1.27" width="0.127" layer="51"/>
 <hole x="-5.715" y="-10.16" drill="2.2"/>
 <hole x="5.715" y="-10.16" drill="2.2"/>
+</package>
+<package name="PROTRINKETLIPO">
+<wire x1="-7.62" y1="-5.08" x2="-7.62" y2="5.08" width="0.127" layer="21"/>
+<wire x1="-5.08" y1="7.62" x2="6.35" y2="7.62" width="0.127" layer="21"/>
+<wire x1="8.89" y1="5.08" x2="8.89" y2="-5.08" width="0.127" layer="21"/>
+<circle x="6.35" y="5.08" radius="1.75" width="0.2032" layer="21"/>
+<circle x="6.35" y="5.08" radius="1" width="2.032" layer="39"/>
+<circle x="6.35" y="5.08" radius="1" width="2.032" layer="40"/>
+<circle x="6.35" y="5.08" radius="1" width="2.032" layer="41"/>
+<circle x="6.35" y="5.08" radius="1" width="2.032" layer="42"/>
+<pad name="P$1" x="6.35" y="5.08" drill="2.5" diameter="3.2"/>
+<pad name="BAT" x="-5.08" y="6.35" drill="1" diameter="1.9304" rot="R90"/>
+<pad name="GND" x="-2.54" y="6.35" drill="1" diameter="1.9304" rot="R90"/>
+<pad name="5V" x="0" y="6.35" drill="1" diameter="1.9304" rot="R90"/>
+<wire x1="6.35" y1="-7.62" x2="-5.08" y2="-7.62" width="0.127" layer="21"/>
+<wire x1="-5.08" y1="-7.62" x2="-7.62" y2="-5.08" width="0.127" layer="21" curve="-90"/>
+<wire x1="-7.62" y1="5.08" x2="-5.08" y2="7.62" width="0.127" layer="21" curve="-90"/>
+<wire x1="6.35" y1="7.62" x2="8.89" y2="5.08" width="0.127" layer="21" curve="-90"/>
+<wire x1="8.89" y1="-5.08" x2="6.35" y2="-7.62" width="0.127" layer="21" curve="-90"/>
+<text x="-4.826" y="3.175" size="0.8128" layer="21" font="vector" ratio="16" rot="R90">BAT</text>
+<text x="-2.159" y="3.048" size="0.8128" layer="21" font="vector" ratio="16" rot="R90">GND</text>
+<text x="0.381" y="2.159" size="0.8128" layer="21" font="vector" ratio="16" rot="R90">VBUS</text>
+<text x="3.81" y="1.27" size="0.8128" layer="21" font="vector" ratio="16" rot="R90">PT LIPO
+BACKPACK</text>
 </package>
 </packages>
 <symbols>
@@ -9298,11 +9302,11 @@ backpack</text>
 <technology name=""/>
 </technologies>
 </device>
-<device name="NOHOLE" package="PROTRINKETLIPO_NOHOLE">
+<device name="" package="PROTRINKETLIPO_NOHOLE">
 <connects>
 <connect gate="G$1" pin="BAT" pad="BAT"/>
 <connect gate="G$1" pin="GND" pad="GND"/>
-<connect gate="G$1" pin="VBUS" pad="VBUS"/>
+<connect gate="G$1" pin="VBUS" pad="5V"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -9323,7 +9327,7 @@ backpack</text>
 </classes>
 <parts>
 <part name="U$1" library="redhunter" deviceset="TRINKET" device="NOHOLES"/>
-<part name="U$2" library="redhunter" deviceset="PROTRINKETLIPO" device="NOHOLE"/>
+<part name="U$2" library="redhunter" deviceset="PROTRINKETLIPO" device="" value="PROTRINKETLIPO"/>
 <part name="VBAT" library="microbuilder" deviceset="VBAT" device=""/>
 <part name="U$3" library="microbuilder" deviceset="VBUS" device=""/>
 <part name="VBAT1" library="microbuilder" deviceset="VBAT" device=""/>
